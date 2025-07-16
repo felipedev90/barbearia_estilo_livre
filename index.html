@@ -6,51 +6,86 @@
     <link rel="stylesheet" href="estilos/style.css" />
     <title>Barbearia Estilo Livre</title>
   </head>
-  <body>
-    <header>
-      <div class="container-fluid d-flex justify-content-around">
-        <nav class="navbar navbar-expand-sm bg-black w-100">
-          <div class="container-fluid justify-content-around">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse" 
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav d-flex gap-4">
-                <li class="nav-item"></li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#">Sobre nós</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#">Serviços</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#">Depoimentos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#">Contato</a>
-                </li>
-              </ul>
-            </div>
+  <header class="header">
+    <div class="container-fluid d-flex justify-content-around">
+      <nav class="navbar navbar-expand-sm bg-black w-100">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav d-flex gap-4 mx-auto">
+              <li class="nav-item"></li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="#sobrenos">Sobre nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="#">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="#">Depoimentos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="#">Contato</a>
+              </li>
+            </ul>
           </div>
-        </nav>
+        </div>
+      </nav>
+    </div>
+    <div class="header__imagem">
+      <picture>
+        <source
+          media="(max-width: 480px)"
+          srcset="images/header_logo_300px.webp"
+          type="image/webp"
+        />
+        <img
+          src="/images/header_logo_500px.webp"
+          alt="Logo Estilo Livre"
+          class="historia__img"
+        />
+      </picture>
+
+      <div class="d-grid gap-2">
+        <button type="button" class="btn btn-outline-warning">
+          Agende seu horário
+        </button>
       </div>
-      <div class="header__imagem">
-        <picture>
-          <img src="/images/Estilo livre.png" alt="Estilo livre" class="header__img" />
-        </picture>
+    </div>
+  </header>
+  <body>
+    <section id="sobrenos">
+      <div class="container-fluid p-0 m-0">
+        <div class="sobrenos__imgcontainer">
+          <div class="sobrenos__txtcontainer text-white">
+            <h2>Quem Somos</h2>
+            <p>
+              Fundada em 1990, a Barbearia Estilo Livre carrega uma história que
+              atravessa gerações. <br />
+              Cortes clássicos, barba bem-feita, aquele atendimento no capricho.
+              Mas com um toque de modernidade — ambiente renovado, técnicas
+              atualizadas e um espaço pensado para quem valoriza estilo e
+              conforto. Na Estilo Livre, mais do que cuidar do visual, a gente
+              mantém viva a essência da barbearia de verdade: respeito, conversa
+              boa e um serviço feito com atenção nos detalhes.
+            </p>
+          </div>
+        </div>
       </div>
-    </header>
+    </section>
+    <section id="servicos"></section>
   </body>
 </html>
 
