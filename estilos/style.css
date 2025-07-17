@@ -36,7 +36,7 @@
 }
 
 .sobrenos__imgcontainer {
-  min-height: 500px;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,18 +57,44 @@
   background-color: rgba(0, 0, 0, 0.6);
   padding: 2rem;
   border-radius: 15px;
+
+  @media (max-width: 768px) {
+    max-width: 90%;
+  }
 }
 
-h2 {
+h1 {
   font-family: "Limelight", serif;
+  font-size: 6rem;
   font-weight: 600;
   padding: 2rem;
+}
+
+h5 {
+  font-family: "Limelight", serif;
+  font-weight: normal;
 }
 
 p {
   font-family: "DMSerif", serif;
   font-size: 1.2rem;
   text-align: center;
+  line-height: 1.5;
+}
+
+.servicos__container,
+.depoimentos__container,
+.container__contato {
+  background-color: black;
+  padding: 2rem;
+  border-bottom: 3px solid #8c7242;
+}
+
+.carousel-item img {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
 
 :root,
