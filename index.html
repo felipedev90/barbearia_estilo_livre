@@ -30,19 +30,19 @@
             <ul class="navbar-nav d-flex gap-4 mx-auto">
               <li class="nav-item"></li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Home</a>
+                <a class="nav-link text-warning" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#sobrenos">Sobre nós</a>
+                <a class="nav-link text-warning" href="#sobrenos">Sobre nós</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="servicos">Serviços</a>
+                <a class="nav-link text-warning" href="#servicos">Serviços</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Depoimentos</a>
+                <a class="nav-link text-warning" href="#depoimentos">Depoimentos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Contato</a>
+                <a class="nav-link text-warning" href="#contato">Contato</a>
               </li>
             </ul>
           </div>
@@ -50,23 +50,12 @@
       </nav>
     </div>
     <div class="header__imagem">
-      <picture>
-        <source
-          media="(max-width: 480px)"
-          srcset="images/header_logo_300px.webp"
-          type="image/webp"
-        />
-        <img
-          src="/images/header_logo_500px.webp"
-          alt="Logo Estilo Livre"
-          class="historia__img"
-        />
-      </picture>
-
-      <div class="d-grid gap-2">
-        <button type="button" class="btn btn-outline-warning">
-          Agende seu horário
-        </button>
+      <div class="button">
+        <div class="d-grid gap-2">
+          <button type="button" class="btn btn-outline-warning">
+            Agende seu horário
+          </button>
+        </div>
       </div>
     </div>
   </header>
@@ -78,11 +67,10 @@
             <h1>Sobre nós</h1>
             <p>
               Fundada em 1990, a Barbearia Estilo Livre carrega uma história que
-              atravessa gerações. <br />
-              Cortes clássicos, barba bem-feita, aquele atendimento no capricho.
-              Mas com um toque de modernidade — ambiente renovado, técnicas
-              atualizadas e um espaço pensado para quem valoriza estilo e
-              conforto. Na Estilo Livre, mais do que cuidar do visual, a gente
+              atravessa gerações. Cortes clássicos, barba bem-feita e aquele
+              atendimento no capricho. Ambiente renovado, técnicas atualizadas e
+              um espaço pensado para quem valoriza estilo e conforto. <br />
+              Na barbearia Estilo Livre, mais do que cuidar do visual, a gente
               mantém viva a essência da barbearia de verdade: respeito, conversa
               boa e um serviço feito com atenção nos detalhes.
             </p>
@@ -220,6 +208,10 @@
     <section id="contato">
       <div class="container__contato">
         <h1 class="text-center text-white">Fale conosco</h1>
+        <p class="text-white">
+          Dúvidas ou reclamações? <br />
+          Envie sua mensagem que entraremos em contato!
+        </p>
 
         <div class="form">
           <div class="mb-3">
@@ -233,7 +225,7 @@
               placeholder="Digite seu nome..."
             />
           </div>
-                  <div class="mb-3">
+          <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label text-white"
               >WhatsApp:</label
             >
@@ -245,9 +237,11 @@
             />
           </div>
           <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label text-white"
-              >Deixe sua mensagem: </label
-            >
+            <label
+              for="exampleFormControlTextarea1"
+              class="form-label text-white"
+              >Deixe sua mensagem:
+            </label>
             <textarea
               class="form-control"
               id="exampleFormControlTextarea1"
@@ -255,18 +249,14 @@
             ></textarea>
           </div>
         </div>
-
       </div>
     </section>
-
+    <footer class="footer__estilo">
+      <div class="footer__container-fluid bg-black text-white text-center p-3">
+        <p>&copy; 2025 Barbearia Estilo Livre. Todos os direitos reservados.</p>
+        <p>Desenvolvido por Felipe Silva</p>
+      </div>
+    </footer>
     <script src="js/script.js"></script>
   </body>
 </html>
-
-<!--
-    
-    Fale Conosco Parágrafo introdutório: Quer tirar dúvidas ou agendar um
-    horário? Envie sua mensagem que entraremos em contato! Campos do formulário:
-    Nome E-mail Mensagem
-
-    -->

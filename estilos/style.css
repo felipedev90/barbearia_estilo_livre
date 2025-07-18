@@ -26,6 +26,8 @@
 }
 
 .header__imagem {
+  min-height: 100vh;
+  max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,19 +35,94 @@
   flex-wrap: wrap;
   border-bottom: 3px solid #8c7242;
   padding-bottom: 1.5rem;
+
+  background: url("../images/header_estilo_livre1980px.webp");
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1024px) {
+  .header__imagem {
+    height: auto;
+    background: url("../images/header_estilo_livre1200px.webp");
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__imagem {
+    height: auto;
+    background: url("../images/header_estilo_livre900px.webp");
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__imagem {
+    height: auto;
+    background: url("../images/header_estilo_livre600px.webp");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}
+
+.button {
+  position: absolute;
+  bottom: 2rem;
+  margin: auto;
+  z-index: 10;
 }
 
 .sobrenos__imgcontainer {
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
   border-bottom: 3px solid #8c7242;
 
-  background: url("/images/quemsomosnos_bg_1900px.webp");
+  background: url("../images/quemsomosnos_bg_1900px.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 1024px) {
+  .sobrenos__imgcontainer {
+    min-height: auto;
+    padding: 2rem;
+    background: url("../images/quemsomosnos_bg_1024px.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 768px) {
+  .sobrenos__imgcontainer {
+    min-height: auto;
+    padding: 1.5rem;
+    background: url("../images/quemsomosnos_bg_900px.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 480px) {
+  .sobrenos__imgcontainer {
+    min-height: auto;
+    padding: 1rem;
+    background: url("../images/quemsomosnos_bg_600px.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 
 .sobrenos__txtcontainer {
@@ -67,7 +144,7 @@ h1 {
   font-family: "Limelight", serif;
   font-size: 6rem;
   font-weight: 600;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 h5 {
@@ -95,6 +172,24 @@ p {
   width: 100%;
   height: auto;
   margin: 0 auto;
+}
+
+.container__contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  min-width: 400px;
+  padding: 1rem;
+  border: 3px solid #8c7242;
+  border-radius: 15px;
+
+  @media (max-width: 768px) {
+    min-width: 350px;
+  }
 }
 
 :root,
