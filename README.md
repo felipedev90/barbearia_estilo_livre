@@ -30,7 +30,7 @@ index.html
 Clone o repositório:
 
 git clone:
-https://github.com/seu-usuario/barbearia-estilo-livre.git
+https://github.com/felipedev90/barbearia-estilo-livre.git
 
 Abra o arquivo index.html no navegador.
 
