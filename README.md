@@ -20,7 +20,7 @@ Site institucional fictício para a Barbearia Estilo Livre, contendo:
 ✅ Formulário de contato estilizado com Bootstrap;  
 ✅ Footer fixo com informações da barbearia;
 
-🛠️ Tecnologias e ferramentas utilizadas  
+🛠️ Tecnologias e ferramentas utilizadas
 ⚛️ HTML5  
 ⚛️ CSS3  
 ⚛️ Bootstrap 5  
