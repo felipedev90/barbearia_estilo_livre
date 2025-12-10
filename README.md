@@ -10,7 +10,7 @@ Projeto desenvolvido como exercício de estudos em HTML, CSS e Bootstrap 5, com 
 
 [👉 Clique aqui para visualizar](https://felipedev90.github.io/barbearia_estilo_livre/)
 
-📌 Sobre o projeto
+📌 Sobre o projeto  
 Site institucional fictício para a Barbearia Estilo Livre, contendo:  
 ✅ Cabeçalho com menu responsivo (Navbar Bootstrap);  
 ✅ Hero section com imagem adaptável via CSS;  
@@ -20,7 +20,7 @@ Site institucional fictício para a Barbearia Estilo Livre, contendo:
 ✅ Formulário de contato estilizado com Bootstrap;  
 ✅ Footer fixo com informações da barbearia;
 
-🛠️ Tecnologias e ferramentas utilizadas
+🛠️ Tecnologias e ferramentas utilizadas  
 ⚛️ HTML5  
 ⚛️ CSS3  
 ⚛️ Bootstrap 5  
